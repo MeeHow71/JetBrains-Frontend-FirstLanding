@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #000;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    max-height: 600px;
+}
+
+div + div {
+    margin-bottom: 16px !important;
+}
+
+footer {
+    min-height: 30vh;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+header {
+    min-height: 10vh;
+    background-color: black;
+    color: lightgray;
+    margin: 0;
+}
+
+main {
+    min-height: 60vh;
+    background-color: lightgray;
+    color: black;
+}
+
+nav {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+li {
+    /*display: inline;*/
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #333;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+#agree-div {
+    margin-bottom: 16px !important;
+}
+
+#centered {
+    text-align: center;
+}
+
+#col-1 {
+    text-align: center;
+    overflow: hidden;
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+#col-2 {
+    text-align: center;
+    overflow: hidden;
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact-col1 {
+    max-width: 100%;
+}
+
+#contact-col2 {
+    max-width: 100%;
+}
+
+#email-div {
+    margin-bottom: 16px;
+}
+
+#email-heading {
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.25rem;
+}
+
+#email {
+    /*width: 100%;*/
+    width: 227.906px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(33, 37, 41);
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 4px;
+    /*font-size: 1rem;*/
+    /*line-height: 1.5;*/
+    /*border: aqua solid 1px;*/
+    /*border-radius: 0.25rem;*/
+}
+
+#email-label {
+    display: block;
+}
+
+#home {
+    overflow: hidden;
+    text-align: center;
+}
+
+#home-text {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+#product {
+    display: flex;
+    width: 800px;
+}
+
+#product img {
+    width: 296px;
+    border-radius: 21px 21px 0 0;
+}
+
+#rest {
+    flex-wrap: wrap;
+}
+
+#send {
+    width: 227.906px;
+    /*display: block;*/
+    border: aqua solid 1px;
+    text-decoration: none;
+    border-radius: .25rem;
+    font-size: 1rem;
+    padding: 6px 12px;
+}
+
+a.typ-a {
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 0.25rem;
+    color: aqua;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: .375rem .75rem .375rem .75rem;
+}

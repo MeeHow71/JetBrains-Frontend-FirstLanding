@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page MJA</title>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="#home" id="link_logo">
+            <img src="https://via.placeholder.com/64" alt="logo" width=64 height=64 title="logo">
+        </a>
+        <a href="#home" id="link_home">Home</a>
+        <a href="#product" id="link_product">Product</a>
+        <a href="#contact" id="link_contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <div id="home">
+        <div id="centered">
+            <h1>First landing</h1>
+            <p id="home-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus scelerisque
+                lectus ac faucibus. Nullam aliquam magna non porta euismod. Duis lorem ante, pharetra at mattis at,
+                ultrices ac justo. Sed non rhoncus elit. Cras commodo aliquam aliquet. Pellentesque sollicitudin
+                justo odio, sit amet auctor lectus mattis vitae. Cras porta purus leo, in scelerisque leo consectetur
+                ut. In sollicitudin maximus viverra. Aliquam semper lacus vitae dignissim posuere.</p>
+            <a class="typ-a" href="#product">Produkty</a>
+
+        </div>
+    </div>
+
+    <div id="product">
+        <!-- COLUMN -->
+        <div id="col-1">
+            <div>
+                <h2>Produkt 1</h2>
+                <p>Całkiem fajny</p>
+            </div>
+            <img src="https://via.placeholder.com/256" alt="Produkt 1" title="Produkt 1">
+        </div>
+
+        <!-- COLUMN -->
+        <div id="col-2">
+            <div>
+                <h2>Produkt 2</h2>
+                <p>Też niezły</p>
+            </div>
+            <img src="https://via.placeholder.com/256" alt="Produkt 2" title="Produkt 2">
+        </div>
+    </div>
+
+    <!--      <div id="contact">Contact</div>-->
+</main>
+
+<footer>
+    <div id="contact">
+        <div id="contact-col1">
+            <a href="#home" id="footer_link_logo">
+                <img src="https://via.placeholder.com/64" alt="logo" width=64 height=64 title="logo">
+            </a>
+            <div id="rest">
+                <a href="#home" id="footer_link_home">Home</a>
+                <a href="#product" id="footer_link_product">Product</a>
+                <a href="#contact" id="footer_link_contact">Contact</a>
+            </div>
+            <p>&copy;&nbsp;2022&nbsp;MJA</p>
+        </div>
+        <div id="contact-col2">
+            <form>
+                <h5 id="email-heading">Przyślij nam swoje dane</h5>
+                <div id="email-div">
+                    <label for="email" id="email-label">Email</label>
+                    <input type="email" name="email" id="email" placeholder="e-mail" required>
+                </div>
+                <div id="agree-div">
+                    <!--                      <input type="checkbox" name="agree" id="agree">-->
+                    <!--                      <label for="agree">Zgoda na maile</label>-->
+                    <label><input type="checkbox" name="agree" id="agree" required>Zgoda na maile</label>
+                </div>
+                <button type="submit" id="send">Wyślij</button>
+            </form>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
